@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>examplePage</title>
+    <style type="text/css">
+        .grid {
+            display: grid;
+            grid-template-columns: 48px auto; /* left side 48px, right 100%-48px */
+            transition: 300ms; /*changes as needed*/ 
+        }
+        .grid:has(.left:hover) { /*hover styles*/
+            grid-template-columns: 30% auto;
+        }
+        .left {
+
+        }
+        .right {
+
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="left">
+            left
+        </div>
+        <div class="right">
+            right
+        </div>
+    </div>
+</body>
+</html>
