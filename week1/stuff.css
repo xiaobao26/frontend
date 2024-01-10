@@ -1,0 +1,30 @@
+* {
+    font-size: 200%;
+}
+
+input[type="radio"] {
+    width: 100px;
+    height: 100px;
+}
+
+.bluetext{
+    color: blue;
+}
+
+.redtext{
+    color: red;
+}
+
+a {
+    /* color: pink; */
+    text-decoration: none;
+}
+
+a:hover {color: blue;}
+/* a:visited {color:red} */
+
+
+#greentext {
+    color: green;
+}
+
