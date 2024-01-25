@@ -10,6 +10,7 @@ body {
   flex: 1;
 }
 
+
 h1 {
   font-size: 5rem;
 }
@@ -18,4 +19,55 @@ footer {
   text-align: right;
   color: midnightblue;
 }
+
+
+.creative {
+  color: #191970;
+}
+
+.tile-image {
+  height: 200px;
+  float: left;
+  margin-right: 50px;
+}
+
+.card {
+  width:45%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+
+@media (max-width: 680px) {
+  .logo {
+    width: 100%;
+  }
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    /* text-align: justify; */
+  }
+
+  .card img {
+    width: 100%;
+    margin-bottom: 10px;
+    display: inline;
+    object-fit: cover;
+  }
+}
+
+
+
+
 
