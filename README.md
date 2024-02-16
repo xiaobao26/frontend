@@ -72,4 +72,18 @@ Day3
         block inline inline-block
 
 
+Day4 Flex Layout
+    1. order
+    2. flex-wrap 
+
+Day4 flex sizing
+    content width < width < flex-basis < min-width/max-width
+
+Day5 project summary
+    1. height: 100vh VS height: 100%
+        100vh基于视口高度，而100%基于其父元素的高度
+        
+    2. flex: 1
+        flex-shrink:1 flex-grow:1 flex-basis:0%(equal)
+
     
