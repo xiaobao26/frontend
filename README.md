@@ -82,8 +82,33 @@ Day4 flex sizing
 Day5 project summary
     1. height: 100vh VS height: 100%
         100vh基于视口高度，而100%基于其父元素的高度
-        
+
     2. flex: 1
         flex-shrink:1 flex-grow:1 flex-basis:0%(equal)
 
-    
+Day6 Grid
+    .className {
+        display: grid;
+        grid-template-columns: 1fr 2fr; // 1: 2
+        grid-template-rows: 1fr 1fr;
+        gap: 10px;
+    }
+
+    // fixed sized not response when the window size changed
+    .className {
+        display: grid;
+        grid-template-rows: 100px 200px;
+        grid-template-columns: 200px 400px;
+    }
+
+    .className {
+        display: grid;
+                        // rows        columns
+        grid-template: 100px 200px / 400px 800px;
+    }
+
+    .className {
+        display:grid;
+        grid-template-rows: repeat(2, 200px);   // ==> 200px 200px
+        grid-template-columns: repeat(2, 100px);    // ==> 100px 100px
+    }
